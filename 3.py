@@ -199,7 +199,7 @@ def abrir_inventario():
         tk.Button(ventana, text="Modificar Producto", command=modificar_producto, background="#00ffb9").place(x=125, y=200, width=150, height=20)
 
     elif rol_actual == "usuario":
-        tk.Button(ventana, text="Ingresar Producto", command=ingresar_producto, background="#00ff04").place(x=240, y=30, width=110, height=25)
+         tk.Button(ventana, text="Ingresar Producto", command=ingresar_producto, background="#00ff04").place(x=240, y=30, width=110, height=25)
 
     tk.Button(ventana, text="Imprimir Inventario", command=imprimir_inventario, background="#00ffb9").place(x=125, y=230, width=150, height=20)
 
@@ -213,7 +213,7 @@ ventana_login.title("Login - Eco Moda")
 ventana_login.geometry("300x200")
 
 # Label del login
-tk.Label(ventana_login, text="Bienvenid@, Por favor inicie sesión.").pack(pady=20)
+tk.Label(ventana_login, text="Bienvenid@, Por favor inicie sesión.").pack(pady=40)
 tk.Button(ventana_login, text="Iniciar Sesión", command=iniciar_sesion).pack(pady=20)
 
 ventana_login.mainloop()
